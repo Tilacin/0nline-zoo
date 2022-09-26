@@ -100,6 +100,12 @@ a {
   font-size: 16px;
   color: #f9804b;
 }
+.header_link1:hover {
+  color: #ffffff;
+}
+.header_link1:active {
+  color: rgb(94, 173, 238);
+}
 .pet_link {
   display: flex;
   margin-bottom: 30px;
@@ -155,10 +161,10 @@ a {
   background-repeat: no-repeat;
 }
 .panda_watch:hover {
-  background: rgb(232, 95, 76);
+  background: #767474;
 }
 .panda_watch:active {
-  background: rgb(94, 173, 238);
+  background: #4B9200;
 }
 .panda_watch {
   display: flex;
@@ -394,10 +400,10 @@ a {
   cursor: pointer;
 }
 .choose:hover {
-  background: rgb(232, 95, 76);
+  background: #767474;
 }
 .choose:active {
-  background: rgb(94, 173, 238);
+  background: #4B9200;
 }
 .choose_text {
   font-family: "Roboto";
@@ -589,10 +595,10 @@ a {
   color: #ffffff;
 }
 .button_pick:hover {
-  background: rgb(232, 95, 76);
+  background: #767474;
 }
 .button_pick:active {
-  background: rgb(94, 173, 238);
+  background: #4B9200;
 }
 .form_pick {
   margin-top: 305px;
@@ -662,10 +668,10 @@ input[type="range"] {
   cursor: pointer;
 }
 .feedback:hover {
-  background: rgb(232, 95, 76);
+  background: #767474;
 }
 .feedback:active {
-  background: rgb(94, 173, 238);
+  background: #4B9200;
 }
 .leve {
   font-family: "Roboto";
@@ -728,7 +734,7 @@ input[type="range"] {
   background: #767474;
 }
 .donate_footer:active {
-  background:  #4B9200
+  background:  #4B9200;
 }
 .social_link {
   list-style-type: none;
@@ -763,6 +769,12 @@ input[type="range"] {
   font-family: roboto;
   font-size: 16px;
   color: #f9804b;
+}
+.footer_link1:hover {
+  color: #ffffff;
+}
+.footer_link1:active {
+  color: rgb(94, 173, 238);
 }
 .footer_link {
   font-family: roboto;
