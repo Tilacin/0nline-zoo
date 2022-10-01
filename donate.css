@@ -252,6 +252,125 @@ a {
 .block1 {
   display: flex;
 }
+.block2{
+  
+  width: 976px;
+  height: 27px;
+  
+  margin-top: 86px;
+  margin-left: 94px;
+  
+  background: #404950;
+  border-radius: 2px;
+  }
+  
+  .line{
+      
+      margin-top: 0px;
+      margin-left: 32px;
+      
+  }
+  .radio_pick{
+  width: 10px;
+  height: 10px;
+  background: #FFEE2E;
+  text-decoration: none;
+  }
+  .block3 li {
+     margin: 0px;
+     padding: 0px;
+      list-style-type: none;
+  }
+  .block3{
+    
+      display: flex;
+      flex-direction: row;
+    
+      top: 6.5px;
+      left: 20px;
+  }
+  .pic1 {
+    margin-top: -43px;
+    margin-left: -170px;
+  }
+  .pic2 {
+    margin-top: -43px;
+    margin-left: -40px;
+  }
+  .pic3 {
+    margin-top: -3px;
+    margin-left: -170px;
+  }
+  .pic4 {
+    margin-top: -3px;
+    margin-left: -170px;
+  }
+  .pic5 {
+    margin-top: -3px;
+    margin-left: -170px;
+  }
+  .pic6 {
+    margin-top: -3px;
+    margin-left: -170px;
+  }
+  .pic7 {
+    margin-top: -3px;
+    margin-left: -170px;
+  }
+  .pic8 {
+    margin-top: -3px;
+    margin-left: -170px;
+  }
+  
+  .block3 input[type='radio']:after {
+      position: relative;
+      bottom: 2px;
+      width: 10px;
+      height: 10px;
+      border-radius: 50%;
+      position: relative;
+      background-color: #FFEE2E;
+      content: '';
+      display: inline-block;
+      visibility: visible;
+      
+  }
+  .block3 input[type='radio']:checked:after {
+      z-index: 40;
+          width: 40px;
+          height: 40px;
+          border-radius: 50%;
+          top: -15px;
+          left: -15px;
+          position: relative;
+          background-color: #d9ff00;
+          content: '';
+          display: inline-block;
+          visibility: visible;
+          cursor: pointer;
+          user-select: none;
+          background: url(/ponyblr-JSFE2022Q3/online-zoo/assets/icons/icon--donate/roller_icon.svg);
+      }
+      .bucks{
+        margin-top: 12px;
+        display: flex;
+    }
+        .bucks_number{
+            font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 26px;
+    line-height: 140%;
+    text-transform: uppercase;
+    
+    color: #333B41;
+    margin-right: 52px;
+        }
+    
+   
+
+
+
 .number_text {
   font-family: "Roboto";
   font-style: normal;
@@ -312,7 +431,7 @@ a {
 }
 .num1000 {
   margin-left: 57px;
-  color: #fe9013;
+  
 }
 .num500 {
   margin-left: 55px;

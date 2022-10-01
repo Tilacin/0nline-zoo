@@ -14,4 +14,3 @@ pic.addEventListener('mouseenter', e => {
     let target = event.target;
     target.style.opacity="1.0" 
   };
-

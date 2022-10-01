@@ -164,7 +164,7 @@ a {
   background: #767474;
 }
 .panda_watch:active {
-  background: #4B9200;
+  background: #4b9200;
 }
 .panda_watch {
   display: flex;
@@ -244,6 +244,7 @@ a {
 .foto_backstage {
   margin-left: 220px;
 }
+
 .backstage_word {
   font-family: "Roboto";
   font-style: normal;
@@ -403,7 +404,7 @@ a {
   background: #767474;
 }
 .choose:active {
-  background: #4B9200;
+  background: #4b9200;
 }
 .choose_text {
   font-family: "Roboto";
@@ -598,7 +599,7 @@ a {
   background: #767474;
 }
 .button_pick:active {
-  background: #4B9200;
+  background: #4b9200;
 }
 .form_pick {
   margin-top: 305px;
@@ -642,15 +643,30 @@ a {
   margin-top: 9px;
   background-image: url("./images main/mila.jpg");
 }
-input[type="range"] {
-  margin-top: 20px;
-  margin-left: 500px;
+.testimonials_range {
   width: 599px;
   height: 8px;
-  background: rgba(255, 255, 255, 0.6);
+
   border-radius: 5px;
-  background-repeat: no-repeat;
+  margin-top: 12px;
+  margin-left: 500px;
+}
+input[type="range"] {
+  overflow: hidden;
+  width: 100%;
+  height: 6px;
+  background: #f5f7f6;
+  border: 0.5 solid #febdab;
+  border-radius: 5px;
+  -webkit-appearance: none;
+}
+input[type="range"]::-webkit-slider-thumb {
+  width: 115px;
+  border-radius: 5px;
+  -webkit-appearance: none;
+  height: 6px;
   cursor: pointer;
+  background: #fe9013;
 }
 
 .feedback {
@@ -660,7 +676,7 @@ input[type="range"] {
   left: calc(50% - 298px / 2);
   background: linear-gradient(113.96deg, #f9804b 1.49%, #fe9013 101.44%);
   border-radius: 5px;
-  margin-top: 27px;
+  margin-top: 42px;
   margin-left: 221px;
   align-items: center;
   justify-content: center;
@@ -671,7 +687,7 @@ input[type="range"] {
   background: #767474;
 }
 .feedback:active {
-  background: #4B9200;
+  background: #4b9200;
 }
 .leve {
   font-family: "Roboto";
@@ -704,8 +720,8 @@ input[type="range"] {
 .footer_block1 {
   display: flex;
   flex-direction: column;
-  margin-top: 42px;
-  margin-left: 220px;
+  margin-top: 40px;
+  margin-left: 219px;
 }
 .donate_footer {
   display: flex;
@@ -734,7 +750,7 @@ input[type="range"] {
   background: #767474;
 }
 .donate_footer:active {
-  background:  #4B9200;
+  background: #4b9200;
 }
 .social_link {
   list-style-type: none;
@@ -792,8 +808,8 @@ input[type="range"] {
   margin-left: 32px;
 }
 .footer_form {
-  margin-top: -11px;
-  margin-left: 31px;
+  margin-top: -12px;
+  margin-left: 32px;
 }
 .footer_input {
   width: 228px;
@@ -801,11 +817,14 @@ input[type="range"] {
   border-color: #f9804b;
   background-color: #111115;
 }
-.footer_input, select, textarea{
+.footer_input,
+select,
+textarea {
   color: #ff0000;
 }
 
-textarea:focus, input:focus {
+textarea:focus,
+input:focus {
   color: #bdbdbd;
 }
 .footer_input:invalid {
@@ -832,7 +851,7 @@ textarea:focus, input:focus {
   background: #f1f3f2;
   border: 1px solid #4b9200;
   border-radius: 5px;
-  margin-left: 5px;
+  margin-left: 6px;
   font-family: "Roboto";
   font-style: normal;
   font-weight: 400;
@@ -869,4 +888,100 @@ textarea:focus, input:focus {
 }
 .img:hover {
   filter: brightness(50%);
+}
+@media (max-width: 1000px) {
+  html, .header, .wpaper,
+  .main, .Watch_your_favorite_animal_online,
+  .main_wrapper {
+    max-width: 1000px;
+  }
+  
+  .panda_pic {
+    width: 1000px;
+    height: 504px;
+    background-image: url("./images main/panda small.jpg");
+    background-position: center calc(-80px);
+    background-repeat: no-repeat;
+  }
+  .foto_backstage {
+    width: 455px;
+    height: 408px;
+  }
+  .designet {
+    margin-left: 260px;
+  }
+  .flower_backstage {
+    display: none;
+  }
+  .header_logo {
+    margin-left: 30px;
+  }
+  .header_about {
+    margin-left: 20px;
+  }
+  .header_map, .header_donate {
+    margin-left: 50px;
+  } 
+  .header_zoos {
+    margin-left: 50px;
+  }
+  .header_contact {
+    display: block;
+    margin-left: 47px;
+  }
+  .circle {
+  width: 367px;
+height: 367px;
+margin-top: -22px;
+margin-left: -352px;
+left:center calc(-20px);
+
+background: linear-gradient(113.96deg, #F9804B 1.49%, #FE9013 101.44%);
+  }
+  .circle_text {
+    font-weight: 700;
+font-size: 85px;
+line-height: 75%;
+text-align: center;
+text-transform: uppercase;
+margin-top: -313px;
+margin-left: -379px;
+
+  }
+  .circle_span2 {
+    margin-left: 177px;
+  }
+  .circle_span3 {
+    margin-left: 90px;
+  }
+  .panda_watch {
+    margin-top: 42px;
+    margin-left: 565px;
+  }
+  .panda_batton_text {
+    margin-top: 14px;
+    margin-left: 88px;
+  }
+  .foto_backstage {
+    width: 455px;
+height: 408px;
+  }
+  .bamboo_cap {
+    display: none;
+  }
+  .foto_backstage {
+    width: 455px;
+height: 408px;
+margin-top: 50px;
+  margin-left: 30px;
+    background-image: url("./images main/bamboo cap small.jpg");
+  }
+  .text_backstage {
+    margin-top: 40px;
+    margin-left:-50px;
+    max-width: 550px;
+  }
+  .backstage_word {
+    max-width: 454px;
+  }
 }
