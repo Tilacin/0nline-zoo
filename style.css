@@ -904,6 +904,7 @@ input:focus {
   }
 
   .panda_pic {
+    
     width: 1000px;
     height: 504px;
     background-image: url("./images main/panda small.jpg");
@@ -942,7 +943,7 @@ input:focus {
     height: 367px;
     margin-top: -22px;
     margin-left: -352px;
-    left: center calc(-20px);
+    
 
     background: linear-gradient(113.96deg, #f9804b 1.49%, #fe9013 101.44%);
   }
@@ -985,7 +986,7 @@ input:focus {
   }
   .text_backstage {
     margin-top: 40px;
-    margin-left: -50px;
+    margin-left: -52px;
     max-width: 550px;
   }
   .backstage_word {
@@ -1098,4 +1099,55 @@ input:focus {
   .Pick_and_feed_friend {
     max-height: 876px;
   }
+.testimonials_h3 {
+  margin-top: 152px;
+}
+.testimonials_card {
+  display: flex;
+  margin-top: -15px;
+
+}
+.mila {
+  display: none;
+}
+.michael {
+  width: 293px;
+  height: 391px; 
+  margin-left: 29px;
+  background-image: url("./images main/michael small.jpg");
+}
+.oscar {
+  width: 293px;
+  height: 391px; 
+  margin-left: 0px;
+  background-image: url("./images main/oscar small.jpg");
+}
+.fredericka {
+  width: 293px;
+  height: 391px; 
+  margin-left: 2px;
+  background-image: url("./images main/fredericka small.jpg");
+}
+.testimonials_input {
+  width: 75px;
+height: 6px;
+margin-top: -5px;
+  margin-left: -200px;
+}
+.feedback {
+ margin-top: 60px;
+ margin-left: 30px; 
+}
+.leav_foto {
+  width: 239.98px;
+height: 235.62px;
+  margin-top: -110px;
+  margin-left: 775px;
+  background-image: url("./images main/leav_small.jpg");
+
+}
+.footer {
+  margin-top: 190px;
+}
+
 }
