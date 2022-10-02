@@ -890,12 +890,19 @@ input:focus {
   filter: brightness(50%);
 }
 @media (max-width: 1000px) {
-  html, .header, .wpaper,
-  .main, .Watch_your_favorite_animal_online,
-  .main_wrapper {
+  html,
+  .header,
+  .wpaper,
+  .main,
+  .Watch_your_favorite_animal_online,
+  .main_wrapper,
+  .pets,
+  .pets_block1,
+  .pets_block2,
+  .pets_pic {
     max-width: 1000px;
   }
-  
+
   .panda_pic {
     width: 1000px;
     height: 504px;
@@ -919,9 +926,10 @@ input:focus {
   .header_about {
     margin-left: 20px;
   }
-  .header_map, .header_donate {
+  .header_map,
+  .header_donate {
     margin-left: 50px;
-  } 
+  }
   .header_zoos {
     margin-left: 50px;
   }
@@ -930,23 +938,22 @@ input:focus {
     margin-left: 47px;
   }
   .circle {
-  width: 367px;
-height: 367px;
-margin-top: -22px;
-margin-left: -352px;
-left:center calc(-20px);
+    width: 367px;
+    height: 367px;
+    margin-top: -22px;
+    margin-left: -352px;
+    left: center calc(-20px);
 
-background: linear-gradient(113.96deg, #F9804B 1.49%, #FE9013 101.44%);
+    background: linear-gradient(113.96deg, #f9804b 1.49%, #fe9013 101.44%);
   }
   .circle_text {
     font-weight: 700;
-font-size: 85px;
-line-height: 75%;
-text-align: center;
-text-transform: uppercase;
-margin-top: -313px;
-margin-left: -379px;
-
+    font-size: 85px;
+    line-height: 75%;
+    text-align: center;
+    text-transform: uppercase;
+    margin-top: -313px;
+    margin-left: -379px;
   }
   .circle_span2 {
     margin-left: 177px;
@@ -964,24 +971,131 @@ margin-left: -379px;
   }
   .foto_backstage {
     width: 455px;
-height: 408px;
+    height: 408px;
   }
   .bamboo_cap {
     display: none;
   }
   .foto_backstage {
     width: 455px;
-height: 408px;
-margin-top: 50px;
-  margin-left: 30px;
+    height: 408px;
+    margin-top: 50px;
+    margin-left: 30px;
     background-image: url("./images main/bamboo cap small.jpg");
   }
   .text_backstage {
     margin-top: 40px;
-    margin-left:-50px;
+    margin-left: -50px;
     max-width: 550px;
   }
   .backstage_word {
     max-width: 454px;
+  }
+  .pic_activ {
+    max-width: 294px;
+    max-height: 357px;
+  }
+  .pets_pandas,
+  .pets_eagles,
+  .pets_gorillas,
+  .pets_two,
+  .pets_cheetahs,
+  .pets_penguins {
+    width: 294px;
+    height: 294px;
+  }
+  .pets {
+    margin-top: 152px;
+    margin-left: -186px;
+  }
+  .text1 {
+    margin-top: -40px;
+  }
+  .pets_svg {
+    margin-left: 242px;
+  }
+  .pets_pic4,
+  .pets_pic5,
+  .pets_pic6 {
+    margin-top: 33px;
+  }
+  .pets_arrow_left {
+    margin-top: -463px;
+    margin-left: 540px;
+  }
+  .pets_arrow_right {
+    margin-top: -68px;
+    margin-left: 775px;
+  }
+  .fish {
+    margin-left: -77px;
+  }
+  .flower_pic_left {
+    display: none;
+  }
+  .flower_left {
+    width: 386px;
+    height: 202px;
+    margin-top: 440px;
+    margin-left: -8px;
+    background-image: url("./images main/flower left small.jpg");
+  }
+  .flower_right {
+    margin-top: -180px;
+    margin-left: 945px;
+  }
+  .choose {
+    margin-top: 448px;
+    margin-left: 160px;
+  }
+  .flower_pic_right {
+    width: 241px;
+    height: 180px;
+  }
+  .pets_block2 {
+    position: relative;
+  }
+  .pick_block {
+    width: 94%;
+    margin: 30px;
+    margin-bottom: 50px;
+  }
+  .pick_link {
+    margin-top: 30px;
+    margin-right: -3px;
+    font-size: 48px;
+    line-height: 120%;
+
+  }
+  .pick_text1 {
+    margin-top: 23px;
+    margin-left: 47px;
+   
+  }
+  .pick_text2 {
+    margin-top: -5px;
+    margin-left: 48px;
+    max-width: 810px;
+  }
+  .pick_text3 {
+    margin-top: 16px;
+    margin-left: 48px;
+    max-width: 810px;
+  }
+  .pick_how {
+    margin-top: 22px;
+    margin-left: 366px;
+  }
+  .cards {
+    margin-left: 88px;
+  }
+  .form_pick {
+    margin-top: 37%;
+  }
+  .Testimonials {
+    margin-top: -50px;
+  }
+  .Pick_and_feed_friend {
+    max-height: 876px;
   }
 }
