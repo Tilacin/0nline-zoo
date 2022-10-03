@@ -888,6 +888,8 @@ input:focus {
 }
 .img:hover {
   filter: brightness(50%);
+
+ /*------------ 1000px ---------------------*/ 
 }
 @media (max-width: 1000px) {
   html,
@@ -1147,7 +1149,349 @@ height: 235.62px;
 
 }
 .footer {
-  margin-top: 190px;
+  margin-top: 188px;
+}
+.footer_block1 {
+  margin-left: 30px;
+}
+.footer_list {
+
+  margin-left: -50px;
+}
+.footer_map {
+  margin-left: -10px;
+}
+.footer_zoos {
+  margin-left: -8px;
+}
+.footer_contact {
+  margin-left: -10px;
+}
+.footer_block2 {
+  margin-left: -117px;
+}
+.footer_text1, .footer_text2 {
+  margin-left: 205px;
 }
 
+}
+/*-------------- 640px ---------------*/
+@media (max-width: 640px) {
+  html,
+  .header,
+  .wpaper,
+  .main,
+  .Watch_your_favorite_animal_online,
+  .main_wrapper,
+  .pets,
+  .pets_block1,
+  .Testimonials,
+  .pets_pic {
+    max-width: 640px;
+  }
+  img[hidden] {
+    display: block;
+  }
+  div[hidden] {
+    display: block;
+  }
+
+  .panda_pic {
+    
+    width: 640px;
+    height: 373px;
+    
+    background-image: url("./images main/panda 640.jpg");
+    background-position: center calc(0px);
+    background-repeat: no-repeat;
+  } 
+.header {
+  position: fixed;
+  max-width: 640px;
+  width: 100%;
+  max-height: 34px;
+  top: 0px;
+  
+}
+.header_logo_pic { 
+width: 46.86px;
+height: 29.03px;
+margin-top: -25px;
+margin-left: -12px;
+
+}
+.header_nav, .designet,.pets_pic3, .pets_pic6,
+.foto_backstage, .flower_pic_right,.pick_arrow1, .pick_arrow2 {
+  display: none;
+}
+.panda_watch {
+  margin-top: -5px;
+  margin-left: 19px;
+}
+
+.circle {
+  
+  width: 237.6px;
+  height: 237.6px; 
+  margin-top: 34px;
+  margin-left: -480px;
+}
+.circle_text {
+  font-size: 54.2894px;
+line-height: 75%;
+margin-top: -200px;
+  margin-left: -545px;
+}
+.circle_span2 {
+  margin-left: 165px;
+}
+.circle_span3 {
+  margin-left: 108px;
+}
+.circle_span4 {
+  margin-left: 133px;
+}
+
+.header_burger {
+  margin-left: 522px;
+}/*
+.flower_right {
+  margin-left: 0px;
+}*/
+.pets_block2 {
+  display: flex;
+}
+.pets_pic4 {
+margin-top: 500px;
+ margin-left: -500px; 
+}
+.the_backstage {
+  margin-top: 20px;
+  margin-left: -10px;
+}
+.how_backstage {
+  margin-top: 30px;
+}
+.goal_backstage{
+  margin-top: 20px;
+}
+.flower_m {
+margin-top: -20px;
+margin-left: 30px;
+}
+.pets {
+  margin-top: -73px;
+  margin-left: 0px;
+}
+
+.pets_pic {
+  display: flex;
+  margin-left: 0px;
+}
+.pets_pic1 {
+  margin-left: 20px;
+  width: 285px;
+  height: 333px;
+}
+
+.pets_pandas, .pets_cheetahs, .pets_eagles, .pets_gorillas,
+.pets_penguins, .pets_two {
+  width: 285px;
+  height: 285px;
+}
+.pets_pic2 {
+  width: 285px;
+  height: 333px;
+}
+.pets_pic4{
+  width: 285px;
+  height: 333px;
+  margin-top: 422px;
+  margin-left: -628px;
+}
+.pets_pic5{
+  width: 285px;
+  height: 333px;
+  margin-top: 420px;
+}
+
+.pets_arrow_right {
+  margin-top: -65px;
+  
+}
+.pets_arrow_left {
+  margin-left: 360px;
+  margin-top: -450px;
+}
+.pets_left {
+  margin-left: -115px;
+  margin-top: 8px;
+}
+.pets_right {
+  margin-left: -440px;
+}
+.pets_block2 {
+  display: flex;
+margin-top: 400px;
+margin-left: 0px;
+}
+.flower_left {
+  margin-top: -43px;
+  margin-left: -256px;
+}
+.choose {
+  margin-top: 3px;
+  margin-left: 42px;
+}
+.flower_right{
+  width: 175px;
+height: 131px;
+  margin-top: 30px;
+  margin-left: -5px;
+  background-image: url("./images main/flower right 640.jpg");
+}
+.Pick_and_feed_friend {
+  max-height: 781px;
+}
+.pick_block {
+width: 640px;
+margin: 0 auto;
+  height: 741px;
+  margin-top: 20px;
+  
+}
+.pick_link {
+  font-weight: 400;
+font-size: 42px;
+line-height: 120%;
+text-align: center;
+margin-top: 10px;
+}
+.pick_text1 {
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 120%; 
+  margin-left: 18px;
+  max-width: 600px;
+}
+.pick_text2 {
+  max-width: 600px;
+  margin-top: 20px;
+  margin-left: 18px;
+}
+.pick_text3 {
+  max-width: 600px;
+
+  margin-left: 18px;
+}
+.pick_how {
+  margin-top: 15px;
+  margin-left: 215px;
+}
+.cards {
+  max-width: 600px;
+  margin-top: -20px;
+  margin-left: 20px;
+}
+.pick_arrow_m2 {
+  width: 63.12px;
+height: 69.66px;
+margin-top: -37px;
+margin-left: -20px;
+}
+.pick_arrow_m1 {
+  width: 63.12px;
+height: 69.66px;
+margin-top: -34px;
+margin-left: -20px;
+}
+.cards_block2 {
+  margin-left: -5px;
+}
+.cards_block3 {
+  margin-left: -5px;
+}
+.form_pick {
+margin-top: 285px;
+margin-left: -430px;
+}
+.testimonials_card {
+  display: flex;
+  flex-direction: column;
+}
+.testimonials_h3 {
+  margin-top: 115px;
+}
+.michael, .oscar, .fredericka {
+  display: none;
+}
+.michael1 {
+  height: 109px;
+  width: 635px;
+  margin-top: 7px;
+  margin-left: 20px;
+  background: url("./images main/michael m.jpg") no-repeat;
+
+}
+.oscar1 {
+  height: 109px;
+  width: 635px;
+  margin-top: 14px;
+  margin-left: 20px;
+  background: url("./images main/osca.jpg") no-repeat;
+}
+.fredericka1 {
+  height: 109px;
+  width: 635px;
+  margin-top: 14px;
+  margin-left: 20px;
+  background: url("./images main/mila m.jpg") no-repeat;
+}
+.testimonials_range, .foto, .subscribe, .footer_form {
+  display: none;
+}
+.feedback {
+  width: 240px;
+height: 54px;
+ margin-left: 200px;
+ margin-top: 40px; 
+}
+.leav_foto {
+  width: 149.88px;
+height: 147.15px;
+margin-top: -55px;
+margin-left: 522px;
+background: url("./images main/leav_foto m.jpg") no-repeat;
+
+}
+.footer {
+  margin-top: 100px;
+  max-height: 282px;
+  max-width: 640px;
+}
+
+.footer_text1 {
+  margin-left: 157px;
+}
+.footer_text2 {
+  margin-left: 157px;
+}
+.footer_logo_pic {
+  margin-top: -27px;
+  margin-left: -10px;
+}
+.form_footer {
+  margin-top: -35px;
+  margin-left: -12px;
+}
+.social {
+  margin-right: 0px;
+}
+.social {
+  display: none;
+}
+.footer_list {
+  margin-top: 245px;
+  margin-left: -340px;
+}
 }
